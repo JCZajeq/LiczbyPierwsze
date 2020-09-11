@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int  n = 1;
+int  n = 1; //program poda 1 jako liczbę pierwszą
 bool prime = false;
 int main()
 {
@@ -17,6 +17,6 @@ int main()
             else  prime = true;
         }
         if (prime == true) cout << "pierwsza: " << n << endl;
-        n += 2;
+        n += 2; //program nie poda 2 jako liczbę pierwszą, bo omija liczby parzyste
     }
 }
